@@ -11,7 +11,7 @@ cnt = input("Count times message to send -: \n")
 
 # Selenium web driver setup and fire up the browser
 browser = webdriver.Chrome(
-    '/home/parshantdhall/Desktop/song_downloader/chromedriver')
+    'path-to-chrome-webdriver')
 
 browser.get('https://web.whatsapp.com/')
 
